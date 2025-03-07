@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Figma Design</title>
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #f9f9f9;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 100%;
+            max-width: 1200px;
+            padding: 20px;
+            background: #ddd;
+            border-radius: 10px;
+            margin-top: 20px;
+        }
+        .navigation {
+            display: flex;
+            gap: 15px;
+            flex-grow: 1;
+            justify-content: center;
+        }
+        .search {
+            width: 40px;
+            height: 40px;
+            background: white;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+        }
+        .filters {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            justify-content: center;
+            margin: 20px 0;
+        }
+        .filter-item {
+            padding: 10px 15px;
+            background: #fff;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        .container {
+            width: 100%;
+            max-width: 1400px;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 5fr));
+            gap: 20px;
+            padding: 20px;
+        }
+        .card {
+            background: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            position: relative;
+            width: 200px;
+            height: 350px;
+        }
+        .favorite {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            background: #ffcc00;
+            padding: 5px 10px;
+            border-radius: 5px;
+        }
+        .heart {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            font-size: 20px;
+            cursor: pointer;
+        }
+        .image-placeholder {
+            width: 80%;
+            height: 200px;
+            background: #e0e0e0;
+            border-radius: 5px;
+            margin: 10px 0;
+        }
+        .card-text {
+            text-align: center;
+            margin-top: 10px;
+            font-size: 18px;
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <nav class="navigation">
+            <span>Woningen</span>
+            <span>Waar</span>
+            <span>Aankomst</span>
+            <span>Vertrek</span>
+            <span>Wie</span>
+            <span>Ervaringen</span>
+        </nav>
+        <div class="search">🔍</div>
+    </header>
+    
+    <section class="filters">
+        <div class="filter-item">placeholder</div>
+        <div class="filter-item">placeholder</div>
+        <div class="filter-item">placeholder</div>
+        <div class="filter-item">placeholder</div>
+        <div class="filter-item">placeholder</div>
+        <div class="filter-item">placeholder</div>
+        <div class="filter-item">placeholder</div>
+        <div class="filter-item">placeholder</div>
+    </section>
+    
+    <section class="container">
+        <div class="card">
+            <div class="favorite">Favoriet</div>
+            <div class="heart">❤️</div>
+            <div class="image-placeholder"></div>
+            <div class="card-text">Placeholder</div>
+        </div>
+        <div class="card">
+            <div class="favorite">Favoriet</div>
+            <div class="heart">❤️</div>
+            <div class="image-placeholder"></div>
+            <div class="card-text">Placeholder</div>
+        </div>
+        <div class="card">
+            <div class="favorite">Favoriet</div>
+            <div class="heart">❤️</div>
+            <div class="image-placeholder"></div>
+            <div class="card-text">Placeholder</div>
+        </div>
+        <div class="card">
+            <div class="favorite">Favoriet</div>
+            <div class="heart">❤️</div>
+            <div class="image-placeholder"></div>
+            <div class="card-text">Placeholder</div>
+        </div>
+        <div class="card">
+            <div class="favorite">Favoriet</div>
+            <div class="heart">❤️</div>
+            <div class="image-placeholder"></div>
+            <div class="card-text">Placeholder</div>
+        </div>
+        <div class="card">
+            <div class="favorite">Favoriet</div>
+            <div class="heart">❤️</div>
+            <div class="image-placeholder"></div>
+            <div class="card-text">Placeholder</div>
+        </div>
+        <div class="card">
+            <div class="favorite">Favoriet</div>
+            <div class="heart">❤️</div>
+            <div class="image-placeholder"></div>
+            <div class="card-text">Placeholder</div>
+        </div>
+        <div class="card">
+            <div class="favorite">Favoriet</div>
+            <div class="heart">❤️</div>
+            <div class="image-placeholder"></div>
+            <div class="card-text">Placeholder</div>
+        </div>
+        <div class="card">
+            <div class="favorite">Favoriet</div>
+            <div class="heart">❤️</div>
+            <div class="image-placeholder"></div>
+            <div class="card-text">Placeholder</div>
+        </div>
+        <div class="card">
+            <div class="favorite">Favoriet</div>
+            <div class="heart">❤️</div>
+            <div class="image-placeholder"></div>
+            <div class="card-text">Placeholder</div>
+        </div>
+        <div class="card">
+            <div class="favorite">Favoriet</div>
+            <div class="heart">❤️</div>
+            <div class="image-placeholder"></div>
+            <div class="card-text">Placeholder</div>
+        </div>
+        <div class="card">
+            <div class="favorite">Favoriet</div>
+            <div class="heart">❤️</div>
+            <div class="image-placeholder"></div>
+            <div class="card-text">Placeholder</div>
+        </div>
+        <div class="card">
+            <div class="favorite">Favoriet</div>
+            <div class="heart">❤️</div>
+            <div class="image-placeholder"></div>
+            <div class="card-text">Placeholder</div>
+        </div>
+        <div class="card">
+            <div class="favorite">Favoriet</div>
+            <div class="heart">❤️</div>
+            <div class="image-placeholder"></div>
+            <div class="card-text">Placeholder</div>
+        </div>
+        <div class="card">
+            <div class="favorite">Favoriet</div>
+            <div class="heart">❤️</div>
+            <div class="image-placeholder"></div>
+            <div class="card-text">Placeholder</div>
+        </div>
+    </section>
+</body>
+</html>
